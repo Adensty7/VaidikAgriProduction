@@ -38,9 +38,41 @@
 <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
             <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              
+              <a href="#sidebar" class="float-start mt-3 d-md-block d-lg-none" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar"> 
                 <span class="navbar-toggler-icon"></span>
-              </button>
+              </a>
+
+            <!-- Left Offcanvas -->
+            <div class="offcanvas offcanvas-start bg-transparent text-light" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+              <div class="offcanvas-header">
+                <img src="/assets/img/Logo.png" class="img-fluid " height="40" alt="Logo"> <h3>Vaidik Agri Production</h3> 
+                  <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav ">
+                  <li class="nav-item mx-3 fw-bolder">
+                    <a class="nav-link active" aria-current="page" href="#"><h5>Home</h5></a>
+                  </li>
+                  <li class="nav-item mx-3 fw-bolder">
+                    <a class="nav-link" href="#"><h5>Solutions</h5></a>
+                  </li>
+                  <li class="nav-item mx-3 fw-bolder">
+                    <a class="nav-link" href="#"><h5>Farmbook</h5></a>
+                  </li>
+                  <li class="nav-item mx-3 fw-bolder">
+                    <a class="nav-link" href="#"><h5>About Us</h5></a>
+                  </li>
+                  <li class="nav-item mx-3 fw-bolder">
+                    <a class="nav-link" href="#"><h5>Blog</h5></a>
+                  </li>
+                  <li class="nav-item mx-3 fw-bolder">
+                    <a class="nav-link" href="#"><h5>Contact Us</h5></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
               <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <a class="navbar-brand mx-5 fs-1 d-none d-lg-block" href="#"> 
                     <div class="row-cols-5">
@@ -48,8 +80,8 @@
                         <div class="offset-6 col-6 text-end"><span class="float-end fs-5">Agri Production</span></div>
                     </div>
                 </a>
-                <ul class="navbar-nav fs-3 me-auto">
-                  <li class="nav-item mx-3 fw-bolder">
+                <ul class="navbar-nav h3 me-auto">
+                  <li class="nav-item mx-3 fw-bolder ">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item mx-3 fw-bolder">
@@ -59,7 +91,7 @@
                     <a class="nav-link" href="#">Farmbook</a>
                   </li>
                 </ul>
-                <ul class="navbar-nav d-flex ms-auto fs-3">
+                <ul class="navbar-nav d-flex h3 ms-auto">
                     <li class="nav-item mx-3 fw-bolder">
                       <a class="nav-link" href="#">About Us</a>
                     </li>
@@ -75,25 +107,136 @@
           </nav>
 <section id="navbar-slider">
     
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" class="" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" class=""  aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
+
           <div class="carousel-item active" id="slider-1">
-            
+            <div class="my-lg-3 py-lg-5">
+              <div class="row g-5 p-3 m-3 justify-content-center text-light">
+                <div class="col-lg-7 text-lg-start col-sm-12 text-sm-center py-5">
+                  <p class="h3 text-warning">
+                    A PROFESSION OF HOPE
+                  </p>
+                  <h1 class="display-2 fw-bolder">
+                    THE PURE NATURALLY HEALING
+                  </h1>
+                  <p class="display-6 py-3">
+                    Growing community by inspiring healthy is our commitment with farmers, the abundant living on the field.
+                  </p>
+                  <div class="d-grid col-lg-5 col-sm-12">
+                    <a href="#" role="button" class="py-3 btn btn-lg rounded-pill btn-outline-warning text-warning bg-transparent">
+                      <h3>Learn More</h3>
+                    </a>
+                  </div>
+                </div>
+                <div class="offset-lg-4 col-lg-1 py-3 my-5 fs-1 d-none d-lg-block">
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-facebook"></i>
+                  </div>
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-twitter"></i>
+                  </div>
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-instagram"></i>
+                  </div>
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-vector-pen"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
+
           <div class="carousel-item" id="slider-2">
+
+            <div class="my-lg-3 py-lg-5">
+              <div class="row g-5 p-3 m-3 justify-content-center text-light">
+                <div class="col-lg-7 text-lg-start col-sm-12 text-sm-center py-5">
+                  <p class="h3 text-warning">
+                    GROWING WITH NATURE
+                  </p>
+                  <h1 class="display-2 fw-bolder">
+                    AGRICULTURE WITH NEW PERSPECTIVE
+                  </h1>
+                  <p class="display-6 py-3">
+                    Creating quality urban lifestyles, building stronger communities for customized advice to smallholder farmer withradical efficiency.
+                  </p>
+                  <div class="d-grid col-lg-5 col-sm-12">
+                    <a href="#" role="button" class="py-3 btn btn-lg rounded-pill btn-outline-warning text-warning bg-transparent">
+                      <h3>Learn More</h3>
+                    </a>
+                  </div>
+                </div>
+                <div class="offset-lg-4 col-lg-1 py-3 my-5 fs-1 d-none d-lg-block">
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-facebook"></i>
+                  </div>
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-twitter"></i>
+                  </div>
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-instagram"></i>
+                  </div>
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-vector-pen"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
         
          </div>
+
           <div class="carousel-item" id="slider-3">
+
+            <div class="my-lg-3 py-lg-5">
+              <div class="row g-5 p-3 m-3 justify-content-center text-light">
+                <div class="col-lg-7 text-lg-start col-sm-12 text-sm-center py-5">
+                  <p class="h3 text-warning">
+                    FARMING WITH NATURE
+                  </p>
+                  <h1 class="display-2 fw-bolder">BRINGING GROWTH TO AGRICULTURE
+                  </h1>
+                  <p class="display-6 py-3">
+                    Promoting the continuous improvement of human and technologies resources generating competitive profitability.
+                  </p>
+                  <div class="d-grid col-lg-5 col-sm-12">
+                    <a href="#" role="button" class="py-3 btn btn-lg rounded-pill btn-outline-warning text-warning bg-transparent">
+                      <h3>Learn More</h3>
+                    </a>
+                  </div>
+                </div>
+                <div class="offset-lg-4 col-lg-1 py-3 my-5 fs-1 d-none d-lg-block">
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-facebook"></i>
+                  </div>
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-twitter"></i>
+                  </div>
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-instagram"></i>
+                  </div>
+                  <div class="col-12 py-4 my-4">
+                    <i class="bi bi-vector-pen"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
         
           </div>
+
         </div>
         
       </div>
+</section>
+
+<section id="features"> 
+  
 </section>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
