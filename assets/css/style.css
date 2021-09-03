@@ -1,0 +1,42 @@
+#navbar-slider {
+    height: 100%;
+}
+#vap-navbar {
+  opacity: 0.8;
+}
+#vap-navbar:hover {
+  opacity: 1;
+}
+#slider-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url(/assets/img/slider-1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+#slider-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url(/assets/img/slider-2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+#slider-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url(/assets/img/slider-3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+#features-bg {
+    background-image: url(/assets/img/Veggie-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#features-veggies {
+    background-image: url(/assets/img/Veggie-Patterns.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+}

@@ -7,36 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Bootstrap Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Landing Page</title>
     <style>
-        #navbar-slider {
-            height: 100%;
-        }
-        #slider-1 {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url(/assets/img/slider-1.png);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            height: 100%;
-        }
-        #slider-2 {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url(/assets/img/slider-2.png);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            height: 100%;
-        }
-        #slider-3 {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url(/assets/img/slider-3.png);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            height: 100%;
-        }
     </style>
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <nav id="vap-navbar" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
             <div class="container-fluid">
               
               <a href="#sidebar" class="float-start mt-3 d-md-block d-lg-none" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar"> 
@@ -118,7 +96,7 @@
           <div class="carousel-item active" id="slider-1">
             <div class="my-lg-3 py-lg-5">
               <div class="row g-5 p-3 m-3 justify-content-center text-light">
-                <div class="col-lg-7 text-lg-start col-sm-12 text-sm-center py-5">
+                <div class="col-lg-7 text-lg-start col-sm-12 text-sm-center">
                   <p class="h3 text-warning">
                     A PROFESSION OF HOPE
                   </p>
@@ -175,7 +153,7 @@
 
             <div class="my-lg-3 py-lg-5">
               <div class="row g-5 p-3 m-3 justify-content-center text-light">
-                <div class="col-lg-7 text-lg-start col-sm-12 text-sm-center py-5">
+                <div class="col-lg-7 text-lg-start col-sm-12 text-sm-center">
                   <p class="h3 text-warning">
                     GROWING WITH NATURE
                   </p>
@@ -232,7 +210,7 @@
 
             <div class="my-lg-3 py-lg-5">
               <div class="row g-5 p-3 m-3 justify-content-center text-light">
-                <div class="col-lg-7 text-lg-start col-sm-12 text-sm-center py-5">
+                <div class="col-lg-7 text-lg-start col-sm-12 text-sm-center">
                   <p class="h3 text-warning">
                     FARMING WITH NATURE
                   </p>
@@ -290,7 +268,13 @@
 </section>
 
 <section id="features"> 
-  
+  <div id="features-bg">
+    <div id="features-veggies">
+    </div>
+    <div class="row justify-content-center">
+
+    </div>
+  </div>
 </section>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
