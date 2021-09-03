@@ -43,7 +43,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)) , url(/assets/img/Veggie-Patterns.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60%;
+    height: 40%;
 }
 
 @media screen and (max-width: 768px) {
