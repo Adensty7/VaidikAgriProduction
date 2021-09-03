@@ -33,7 +33,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)) , url(/assets/img/Veggie-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    min-height: 100%;
 }
 
 
@@ -49,15 +49,16 @@
 @media screen and (max-width: 768px) {
 
     #features-bg {
-        background-image: linear-gradient(#FFBA0045);
-        height: 60%;
+        background-image: url(/assets/img/Veggie-bg.png), url(/assets/img/Veggie-Patterns.png);
+        background-size: contain;
+        min-height: 60%;
     }
 
     #features-veggies {
         background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)) , url(/assets/img/Veggie-Patterns.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 80%;
+        height: 10%;
     }
 }
 
@@ -90,6 +91,19 @@
 
 */
 
+/* Welcome Section */
+
+#welcome {
+    min-height: 100%;
+}
+
+#cob-bg {
+    background-image: url(/assets/img/cob-1.png), url(/assets/img/cob-2.png);
+    background-position: right, right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+}
+
 /* Colors and Bg-Colors */
 .bg-peach {
     background-color: #FFECBA;
@@ -98,3 +112,4 @@
 .text-teal {
     color: teal;
 }
+
