@@ -170,6 +170,33 @@
 
 /* Video */
 
+/* Blogs */
+
+.blog-icon {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+}
+
+@media screen and (max-width: 992px) {
+
+    .blog-icon {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .blog-icon {
+        position: absolute;
+        top: 45%;
+        left: 60%;
+    }
+
+}
 
 /* Colors and Bg-Colors */
 .bg-peach {
