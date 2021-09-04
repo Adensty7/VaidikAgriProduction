@@ -158,8 +158,17 @@
     background-image: url(/assets/img/clients-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100%;
+    min-height: 90%;
 }
+
+#clients-veggies {
+    background-image: url(/assets/img/veggie-1.png), url(/assets/img/veggie-2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 20%, 20%;
+    background-position: bottom left, bottom right;
+}
+
+/* Video */
 
 
 /* Colors and Bg-Colors */

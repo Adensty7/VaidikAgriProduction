@@ -492,12 +492,14 @@
 
 <section id="clients">
   <div id="clients-bg">
+    <div id="clients-veggies">
     <div class="row justify-content-center p-3 m-3 text-center">
       <div class="col-12">
         <h1 class="pt-5 mt-5 text-teal">We'll let our clients do the talking</h1>
         <p class="py-3 my-3 h5 text-teal">Here’s what they have to say</p>
       </div>
     </div>
+    
       <div id="carouselIndicators3" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <!--<div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -507,16 +509,30 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row justify-content-center text-center p-3 m-3">
-              <div class="col-6">
-                <video src="/assets/video/clients.mp4" class="w-100" controls muted></video>
+              <div class="col-lg-8 col-sm-10">
+                <video class="w-100" onclick="this.paused ? this.play() : this.pause();" muted poster="/assets/img/client-thumbnail.png">
+                  <source src="/assets/video/" type="video/mp4">
+                </video>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <div class="row justify-content-center text-center p-3 m-3">
+              <div class="col-lg-8 col-sm-10">
+                <video class="w-100" onclick="this.paused ? this.play() : this.pause();" muted poster="/assets/img/client-thumbnail.png">
+                  <source src="/assets/video/" type="video/mp4">
+                </video>
+              </div>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <div class="row justify-content-center text-center p-3 m-3">
+              <div class="col-lg-8 col-sm-10">
+                <video class="w-100" onclick="this.paused ? this.play() : this.pause();" muted poster="/assets/img/client-thumbnail.png">
+                  <source src="/assets/video/" type="video/mp4">
+                </video>
+              </div>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators3" data-bs-slide="prev">
@@ -528,7 +544,15 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    
+
+      <div class="row justify-content-center p-3 m-3 text-center">
+        <div class="col-lg-8 col-sm-12">
+          <p class="h5">Aliquet nunc ante eu quis donec amet praesent nulla odio. Consectetur sit ultricies tristique consequat aliquam. Rutrum cursus sagittis vestibulum.</p>
+        </div>
+      </div>
+
+  </div>
+
   </div>
 </section>
 
