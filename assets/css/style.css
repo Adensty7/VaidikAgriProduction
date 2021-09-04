@@ -178,6 +178,11 @@
     left: 60%;
 }
 
+.white-fillerbg {
+    background-color: white;
+    min-height: 10%;
+}
+
 @media screen and (max-width: 992px) {
 
     .blog-icon {
@@ -198,6 +203,50 @@
 
 }
 
+/* Contacts */
+
+#contact-bg {
+    background-image: url(/assets/img/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+#leaves-1 {
+    background-image: url(/assets/img/leaves-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+
+#leaves-2 {
+    background-image: url(/assets/img/leaves-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+}
+
+.contact-img {
+    right: 45%;
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .contact-img {
+        right: 25%;
+    
+    }
+}
+
+.contact-form {
+    background-image: linear-gradient(180deg, #FFECBA 0%, rgba(55, 113, 109, 0.44) 100%);
+}
+
+.rounded-border {
+    border-radius: 12px;
+}
+
 /* Colors and Bg-Colors */
 .bg-peach {
     background-color: #FFECBA;
@@ -205,6 +254,10 @@
 
 .text-teal {
     color: teal;
+}
+
+.border-teal {
+    border: 5px solid teal;
 }
 
 html {
