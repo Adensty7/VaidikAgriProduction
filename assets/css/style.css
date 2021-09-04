@@ -63,23 +63,20 @@
 
 /* Feature Images */
 
-/* 
 .feature-img {
     position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 .feature-fab {
-    bottom: 0%;
+    position: absolute;
+    bottom: -3%;
+    left: 10%;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 992px) {
 
     .feature-img {
-        position:unset;
+        position: unset;
     }
     
     .feature-fab {
@@ -105,18 +102,65 @@
 /* Services Section */
 
 #services-bg {
-    background-image: url(/assets/img/services-bg.png), linear-gradient(white, white);
+    background-image: url(/assets/img/services-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80%;
-    min-height: 0%, 100%;
+    min-height: 80%;
+}
+
+#services-whitebg {
+    background-color: white;
+    min-height: 30%;
 }
 
 .services-img {
-    z-index: 2;
-    position: absolute;
-    bottom: 25%;
+    position: relative;
 }
+
+.services-icon {
+    position: absolute;
+    bottom: 28%;
+    right: 25%;
+}
+.services-icon2 {
+    position: absolute;
+    bottom: 28%;
+    right: 25%;
+}
+
+@media screen and (max-width: 992px) {
+
+    .services-icon {
+        position: absolute;
+        bottom: 12%;
+        right: 25%;
+    }
+
+    #services-whitebg {
+        background-color: white;
+        min-height: 20%;
+    }
+}
+
+/* Projects */
+
+#project-bg {
+    background-image: url(/assets/img/projects-bg.png), url(/assets/img/veggie-1.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, contain;
+    background-position: bottom right;
+    min-height: 60%;
+}
+
+/* Clients */
+
+#clients-bg {
+    background-image: url(/assets/img/clients-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
 
 /* Colors and Bg-Colors */
 .bg-peach {
