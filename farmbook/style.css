@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    height: 250px;
+    padding: 20px 40px;
+    background: url("wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+
+}
+
+.corner {
+    position: absolute;
+    top: -2px;
+    right: 50px;
+    width: 500px;
+    z-index: 1;
+}
+
+.corner img {
+    width: 550px;
+}
+
+nav {
+    display: flex;
+}
+
+@media (max-width:1000px) {
+
+    .corner {
+        display: none;
+    }
+
+}
+
+
+.searchbox {
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    position: absolute;
+    top: 175px;
+    left: 50%;
+}
+
+@media (max-width:1200px) {
+    .searchbox {
+        display: none;
+    }
+}
+
+input {
+    background: rgba(0, 0, 0, 0);
+    font-size: larger;
+    border: none;
+    width: 200px;
+    height: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    color: grey;
+    text-align: center;
+}
+
+input[type=search]:focus{
+    border-bottom: 5px solid green;
+}
+
+
+.header ul {
+    margin-left: -65px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header ul li {
+    padding: 15px 0px;
+    list-style: none;
+
+
+}
+
+.active {
+    background: rgb(1, 182, 182);
+    border: 4px solid darkcyan;
+    box-shadow: 2px 2px 10px rgba(0, 139, 139, 0.774);
+}
+
+
+.header ul li a {
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    text-decoration: none;
+    color: rgb(255, 146, 22);
+    font-weight: bolder;
+    font-size: large;
+}
+
+.header ul li a:hover {
+    text-decoration: 4px underline rgb(255, 255, 255);
+}
+
+/* container consists of box  */
+
+.container {
+    padding: 6px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* box = cards */
+
+.box {
+    width: 280px;
+    text-align: center;
+    margin: 10px 20px;
+    border: 4px solid orange;
+    border-radius: 5%;
+}
+
+.box img {
+    width: 280px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    height: 220px;
+}
+
+.box p {
+    color: grey;
+}
+
+.inbox img {
+    height: 15px;
+}
+
+.inbox {
+    color: grey;
+
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* for responsiveness */
+
+@media (min-width:1000px) {
+    .headercontent{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+}
+
+
+/* text in card */
+
+.fill {
+    margin: 2px 10px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: smaller;
+}
+
+.left img {
+    position: relative;
+    top: 3px;
+    width: 15px;
+    height: 15px;
+}
+
+
+/* for the footer */
+
+footer {
+    background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
