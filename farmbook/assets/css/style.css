@@ -1,0 +1,57 @@
+/* Farmbook */
+
+#farmbook-bg {
+    background-image: url(/farmbook/assets/img/farmbook-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 60%;
+}
+
+#farmbook-leaf {
+    background-image: url(/farmbook/assets/img/leaf.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+
+}
+
+/* Card */
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card .card-body {
+    border-radius: 0 0 10px 10px;
+}
+
+/* Searchbar */
+
+.searchbar {
+    background-color: inherit;
+    border-color: transparent;
+    outline: transparent;
+}
+
+/* Nav-pill */
+
+li button .active {
+    background-color: teal;
+}
+
+/* Scrollbar */
+
+html {
+    overflow-x: hidden;
+}
+
+/* Back to Top Button */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 2;
+    
+  }
