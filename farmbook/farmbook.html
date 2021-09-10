@@ -24,82 +24,99 @@
   <i class="bi bi-arrow-up"></i>
   </button>
 
-        <nav id="vap-navbar" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
-            <div class="container-fluid">
-              
-              <a href="#sidebar" class="float-start mt-3 d-md-block d-lg-none" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar"> 
-                <span class="navbar-toggler-icon"></span>
-              </a>
+  <nav id="vap-navbar" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <div class="container-fluid">
+      
+      <a href="#sidebar" class="float-start mt-3 d-md-block d-lg-none" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar"> 
+        <span class="navbar-toggler-icon"></span>
+      </a>
 
-            <!-- Left Offcanvas -->
-            <div class="offcanvas offcanvas-start bg-transparent text-light" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
-              <div class="offcanvas-header">
-                <img src="/assets/img/Logo.png" class="img-fluid" height="40" alt="Logo"> <h3>Vaidik Agri Production</h3> 
-                  <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="navbar-nav ">
-                  <li class="nav-item mx-3 fw-bolder">
-                    <a class="nav-link active" aria-current="page" href="#"><h5>Home</h5></a>
-                  </li>
-                  <li class="nav-item mx-3 fw-bolder">
-                    <a class="nav-link" href="#"><h5>Solutions</h5></a>
-                  </li>
-                  <li class="nav-item mx-3 fw-bolder">
-                    <a class="nav-link" href="#"><h5>Farmbook</h5></a>
-                  </li>
-                  <li class="nav-item mx-3 fw-bolder">
-                    <a class="nav-link" href="#"><h5>About Us</h5></a>
-                  </li>
-                  <li class="nav-item mx-3 fw-bolder">
-                    <a class="nav-link" href="#"><h5>Blog</h5></a>
-                  </li>
-                  <li class="nav-item mx-3 fw-bolder">
-                    <a class="nav-link" href="#"><h5>Contact Us</h5></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+    <!-- Left Offcanvas -->
+    <div class="offcanvas offcanvas-start bg-transparent text-light" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+      <div class="offcanvas-header">
+        <img src="/assets/img/Logo.png" class="img-fluid" height="40" alt="Logo"> <h3>Vaidik Agri Production</h3> 
+          <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ">
+          <li class="nav-item mx-3 fw-bolder">
+            <a class="nav-link h5 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-3 fw-bolder dropdown">
+            <a class="nav-link h5 dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Solutions
+            </a>
 
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand mx-5 fs-1 d-none d-lg-block" href="#"> 
-                    <div class="row-cols-5">
-                        <div class="col-10 float-start"><img src="/assets/img/Logo.png" class="img-fluid" height="40" alt="Logo"> Vaidik </div>
-                        <div class="offset-6 col-6 text-end"><span class="float-end fs-5">Agri Production</span></div>
-                    </div>
-                </a>
-                <ul class="navbar-nav h3 me-auto">
-                  <li class="nav-item mx-3 fw-bolder ">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item mx-3 fw-bolder">
-                    <a class="nav-link" href="#">Solutions</a>
-                  </li>
-                  <li class="nav-item mx-3 fw-bolder">
-                    <a class="nav-link" href="#">Farmbook</a>
-                  </li>
-                </ul>
-                <ul class="navbar-nav d-flex h3 ms-auto">
-                    <li class="nav-item mx-3 fw-bolder">
-                      <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item mx-3 fw-bolder">
-                      <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item mx-3 fw-bolder">
-                      <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                  </ul>
-              </div>
+              <ul class="dropdown-menu bg-transparent" aria-labelledby="solutionsDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+          </li>
+          <li class="nav-item mx-3 fw-bolder">
+            <a class="nav-link h5" href="#">Farmbook</a>
+          </li>
+          <li class="nav-item mx-3 fw-bolder">
+            <a class="nav-link h5" href="#">About Us</a>
+          </li>
+          <li class="nav-item mx-3 fw-bolder">
+            <a class="nav-link h5" href="#">Blog</a>
+          </li>
+          <li class="nav-item mx-3 fw-bolder">
+            <a class="nav-link h5" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand mx-5 fs-1 d-none d-lg-block" href="#"> 
+            <div class="row-cols-5">
+                <div class="col-10 float-start"><img src="/assets/img/Logo.png" class="img-fluid" height="40" alt="Logo"> Vaidik </div>
+                <div class="offset-6 col-6 text-end"><span class="float-end fs-5">Agri Production</span></div>
             </div>
-          </nav>
+        </a>
+        <ul class="navbar-nav h3 me-auto">
+          <li class="nav-item mx-3 fw-bolder ">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-3 fw-bolder dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Solutions
+            </a>
+            <ul class="dropdown-menu bg-transparent" aria-labelledby="solutionsDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-3 fw-bolder">
+            <a class="nav-link" href="#">Farmbook</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-flex h3 ms-auto">
+            <li class="nav-item mx-3 fw-bolder">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item mx-3 fw-bolder">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item mx-3 fw-bolder">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
 
     <section id="farmbook">
         <div id="farmbook-bg">
             <div id="farmbook-leaf">
                 <div class="row py-5">
                     <div class="col-lg-6 col-12 py-lg-5 my-lg-5">
-                        <h5 class="ps-5">Welcome to Vaidik Agri Producer Company</h5>
+                        <h5 class="ps-5 pt-3">Welcome to Vaidik Agri Producer Company</h5>
                         <h1 class="ps-5">FarmBook</h1>
                         
                         <div class="row justify-content-lg-start justify-content-center ">
@@ -107,13 +124,13 @@
                                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                     
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="pills-blogs-tab" data-bs-toggle="pill" data-bs-target="#pills-blogs" type="button" role="tab" aria-controls="pills-blogs" aria-selected="true">Vaidik Wall</button>
+                                            <button class="nav-link active" id="pills-blogs-tab" data-bs-toggle="pill" data-bs-target="#pills-blogs" type="button" role="tab" aria-controls="pills-blogs" aria-selected="true" onclick="changeBg('vw')">Vaidik Wall</button>
                                           </li>
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Videos</button>
+                                            <button class="nav-link " id="pills-videos-tab" data-bs-toggle="pill" data-bs-target="#pills-videos" type="button" role="tab" aria-controls="pills-videos" aria-selected="false" onclick="changeBg('videos')">Videos</button>
                                           </li>
                                         <li class="nav-item" role="presentation">
-                                            <button class="nav-link " id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Images</button>
+                                            <button class="nav-link " id="pills-images-tab" data-bs-toggle="pill" data-bs-target="#pills-images" type="button" role="tab" aria-controls="pills-images" aria-selected="false" onclick="changeBg('img')">Images</button>
                                         </li>
     
                                         
@@ -123,7 +140,7 @@
     
                             <div class="ps-5 py-3 col-xxl-6 col-sm-8 col-12">
                                 <div class="search border-bottom border-3 border-secondary">
-                                    <p class="ps-3"><i class="bi bi-search"></i> <span class="ps-5"> <input type="search" class="searchbar"  name="search" placeholder="Search Blogs"> </span></p>
+                                    <p class="ps-3"><i class="bi bi-search"></i> <span class="ps-5"> <input type="search" class="searchbar" id="sbar" name="search" placeholder="Search Blogs"> </span></p>
                                 </div>
                             </div>
                         
@@ -157,16 +174,17 @@
                         </div>
 
                         <div class="col-xxl-3 col-lg-4 col-sm-6 col-12 p-3">
-                            <div class="card">
-                                <img src="/farmbook/assets/img/a.jpg" class="card-img-top" alt="Card Image">
-                                <div class="card-body text-center border border-3 border-warning">
-                                  <h5 class="card-title">Enim arcu morbi amet in suspendisse.</h5>
-                                  <p class="card-text lead">by Lars Ettrup</p>
-                                  <p class="float-start text-secondary lead"><i class="bi bi-eye"></i> 122</a>
-                                  <p class="float-end lead text-secondary"><span class="fw-bold">Post on</span> 10/09/2021</a>
-                                </div>
+                          <div class="card">
+                              <video src="/farmbook/assets/video/clients.mp4" class="card-img-top h-100" alt="Card Video"></video>
+                              <button class="vidbuttonblog" onclick="playVideoBlog(event)">Play</button>
+                              <div class="card-body text-center border border-3 border-warning">
+                                <h5 class="card-title">Enim arcu morbi amet in suspendisse.</h5>
+                                <p class="card-text lead">by Lars Ettrup</p>
+                                <p class="float-start text-secondary lead"><i class="bi bi-eye"></i> 122</a>
+                                <p class="float-end lead text-secondary"><span class="fw-bold">Post on</span> 10/09/2021</a>
                               </div>
-                        </div>
+                            </div>
+                      </div>
 
                         <div class="col-xxl-3 col-lg-4 col-sm-6 col-12 p-3">
                             <div class="card">
@@ -291,15 +309,115 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="tab-pane fade" id="pills-videos" role="tabpanel" aria-labelledby="pills-videos-tab">
 
+                  <div class="row justify-content-center p-3 m-3 g-3 px-5">
+
+                    <div class="col-xl-5 col-lg-6 col-sm-10 col-12">
+                        <div class="card pt-5 px-5 border border-3 border-warning">
+                            <video src="/farmbook/assets/video/clients.mp4" onclick="this.paused ? this.play() : this.pause();" class="card-img-top h-100" alt="Card Video"></video>
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Enim arcu morbi amet in suspendisse.</h5>
+                              <p class="card-text lead">by Lars Ettrup</p>
+                              <p class="float-start text-secondary lead"><i class="bi bi-eye"></i> 122</a>
+                              <p class="float-end lead text-secondary"><span class="fw-bold">Post on</span> 10/09/2021</a>
+                              <div class="card-body text-center pt-5">
+                                  <button class="vid-button btn-lg" onclick="playVideo(event)">Play</button>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-xl-5 col-lg-6 col-sm-10 col-12">
+                      <div class="card pt-5 px-5 border border-3 border-warning">
+                          <video src="/farmbook/assets/video/clients.mp4" onclick="this.paused ? this.play() : this.pause();" class="card-img-top h-100" alt="Card Video"></video>
+                          <div class="card-body text-center">
+                            <h5 class="card-title">Enim arcu morbi amet in suspendisse.</h5>
+                            <p class="card-text lead">by Lars Ettrup</p>
+                            <p class="float-start text-secondary lead"><i class="bi bi-eye"></i> 122</a>
+                            <p class="float-end lead text-secondary"><span class="fw-bold">Post on</span> 10/09/2021</a>
+                            <div class="card-body text-center pt-5">
+                                <button class="vid-button btn-lg" onclick="playVideo(event)">Play</button>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+
+                  <div class="col-xl-5 col-lg-6 col-sm-10 col-12">
+                    <div class="card pt-5 px-5 border border-3 border-warning">
+                        <video src="/farmbook/assets/video/clients.mp4" onclick="this.paused ? this.play() : this.pause();" class="card-img-top h-100" alt="Card Video"></video>
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Enim arcu morbi amet in suspendisse.</h5>
+                          <p class="card-text lead">by Lars Ettrup</p>
+                          <p class="float-start text-secondary lead"><i class="bi bi-eye"></i> 122</a>
+                          <p class="float-end lead text-secondary"><span class="fw-bold">Post on</span> 10/09/2021</a>
+                          <div class="card-body text-center pt-5">
+                              <button class="vid-button btn-lg" onclick="playVideo(event)">Play</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-xl-5 col-lg-6 col-sm-10 col-12">
+                  <div class="card pt-5 px-5 border border-3 border-warning">
+                      <video src="/farmbook/assets/video/clients.mp4" onclick="this.paused ? this.play() : this.pause();" class="card-img-top h-100" alt="Card Video"></video>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Enim arcu morbi amet in suspendisse.</h5>
+                        <p class="card-text lead">by Lars Ettrup</p>
+                        <p class="float-start text-secondary lead"><i class="bi bi-eye"></i> 122</a>
+                        <p class="float-end lead text-secondary"><span class="fw-bold">Post on</span> 10/09/2021</a>
+                        <div class="card-body text-center pt-5">
+                            <button class="vid-button btn-lg" onclick="playVideo(event)">Play</button>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+
+              <div class="col-xl-5 col-lg-6 col-sm-10 col-12">
+                <div class="card pt-5 px-5 border border-3 border-warning">
+                    <video src="/farmbook/assets/video/clients.mp4" onclick="this.paused ? this.play() : this.pause();" class="card-img-top h-100" alt="Card Video"></video>
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Enim arcu morbi amet in suspendisse.</h5>
+                      <p class="card-text lead">by Lars Ettrup</p>
+                      <p class="float-start text-secondary lead"><i class="bi bi-eye"></i> 122</a>
+                      <p class="float-end lead text-secondary"><span class="fw-bold">Post on</span> 10/09/2021</a>
+                      <div class="card-body text-center pt-5">
+                          <button class="vid-button btn-lg" onclick="playVideo(event)">Play</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-xl-5 col-lg-6 col-sm-10 col-12">
+              <div class="card pt-5 px-5 border border-3 border-warning">
+                  <video src="/farmbook/assets/video/clients.mp4" onclick="this.paused ? this.play() : this.pause();" class="card-img-top h-100" alt="Card Video"></video>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Enim arcu morbi amet in suspendisse.</h5>
+                    <p class="card-text lead">by Lars Ettrup</p>
+                    <p class="float-start text-secondary lead"><i class="bi bi-eye"></i> 122</a>
+                    <p class="float-end lead text-secondary"><span class="fw-bold">Post on</span> 10/09/2021</a>
+                    <div class="card-body text-center pt-5">
+                      <button class="vid-button btn-lg" onclick="playVideo(event)">Play</button>
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+
+                  
+
+                  
+
+
+
+                  </div>
 
 
 
                 </div>
 
 
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="tab-pane fade" id="pills-images" role="tabpanel" aria-labelledby="pills-images-tab">
 
 
                   <div class="row justify-content-center p-3 m-3 g-3 px-5">
@@ -460,5 +578,20 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <!-- Backtotop.js -->
 <script src="/farmbook/assets/js/backtotop.js"></script>
+<script src="/farmbook/assets/js/vidbutton.js"></script>
+<script src="/farmbook/assets/js/changebg.js"></script>
+<script>
+  var prevScrollpos = 200;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    var navbar = document.getElementById("vap-navbar");
+    if (prevScrollpos < currentScrollPos) {
+    navbar.classList.remove("fixed-top");
+  } else {
+    navbar.classList.add("fixed-top");
+  }
+}
+    
+</script>
 </body>
 </html>

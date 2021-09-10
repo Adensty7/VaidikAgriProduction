@@ -8,12 +8,25 @@
 }
 
 #farmbook-leaf {
-    background-image: url(/farmbook/assets/img/leaf.png);
+    background: url(/farmbook/assets/img/leaf.png);
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 40%;
 
 }
+
+@media screen and (max-width: 768px) {
+
+    #farmbook-leaf {
+        background: transparent;
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 40%;
+    
+    }
+
+}
+
 
 /* Card */
 
@@ -35,8 +48,27 @@
 
 /* Nav-pill */
 
-li button .active {
+.nav-pills .nav-item .nav-link{
+    color: orange;
+}
+
+.nav-pills .nav-item .active{
     background-color: teal;
+}
+
+/* Video */
+
+.vidbuttonblog {
+    background-color: orange;
+    color: teal;
+}
+
+/* Video Buttons */
+
+.vid-button {
+    background-color: orange;
+    color: teal;
+    border-radius: 12px;
 }
 
 /* Scrollbar */
